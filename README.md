@@ -24,7 +24,9 @@ O projeto foi desenvolvido em **7 etapas sequenciais**, cobrindo desde a defini�
 ---
 
 ### 1️⃣ 🔹 Definição de Objetivo, MVP e criação de Plano de Curadoria
+
 📄 Arquivo: *(plano_curadoria.pdf)*
+
 Na primeira etapa, definimos como MVP do projeto as seguintes entregas:
 
 - **Enriquecimento de dados via API (TMDB)** para complementar informações ausentes como diretor, elenco e país.
@@ -39,7 +41,9 @@ Também foi elaborado o baseline de um **Plano de Curadoria de Dados e Política
 ---
 
 ### 2️⃣ 🔹 Enriquecimento via API
+
 📄 Notebook: *(enriquecimento_api.ipynb)*
+
 📄 Arquivo de saída: *(df_netflix_enriquecido)*
 
 Nesta etapa analisamos os dados presentes no dataset e definimos como estratégia o **enriquecimento com dados externos**.  Para isto, foi utilizada a **API do TMDB (The Movie Database)** por oferecer uma base mais completa e compatível com as colunas necessárias para o projeto.
@@ -63,7 +67,9 @@ API_KEY = ""
 ```
 
 ### 3️⃣ 🔹 Criação de categorias sazonais + Pipeline ETL
+
 📄 Notebook: *(pipeline_automatizado_netflix.ipynb)*
+
 📄 Arquivo de saída: *(dataset_final)*
 
 Nesta etapa foi criada uma **pipeline de ETL em Python utilizando Prefect** para processar o dataset enriquecido da Netflix.
@@ -71,41 +77,42 @@ Nesta etapa foi criada uma **pipeline de ETL em Python utilizando Prefect** para
 O pipeline executa as seguintes etapas:
 
 **Extração**
-- leitura do dataset `df_netflix_enriquecido.csv`
+- Leitura do dataset `df_netflix_enriquecido.csv`
 
 **Limpeza de dados**
-- remoção de duplicatas (`drop_duplicates`)
-- remoção da coluna `description`
-- padronização de valores `null` e `unknown` para `"Não Informado"`
+- Remoção de duplicatas (`drop_duplicates`)
+- Remoção da coluna `description`
+- Padronização de valores `null` e `unknown` para `"Não Informado"`
 
 **Enriquecimento**
-- integração com dados obtidos via **API** (diretor, elenco e país)
+- Integração com dados obtidos via **API** (diretor, elenco e país)
 
 **Padronização**
-- conversão de nomes de países para códigos **ISO alpha-2** utilizando `pycountry`
-- padronização da **classificação indicativa**
+- Conversão de nomes de países para códigos **ISO alpha-2** utilizando `pycountry`
+- Padronização da **classificação indicativa**
 
 **Transformação**
-- conversão de tipos de dados (datas, categorias e textos)
+- Conversão de tipos de dados (datas, categorias e textos)
 
 **Feature Engineering**
-- criação das colunas:
+- Criação das colunas:
   - `duracao_em_min`
   - `temporadas`
   - `estacao` (baseada nas estações do ano no Brasil)
 
 **Tradução**
-- nomes das colunas traduzidos para **português**
+- Nomes das colunas traduzidos para **português**
 
 **Carga**
-- geração do dataset final: `dataset_final.csv`
+- Geração do dataset final: `dataset_final.csv`
 
 O pipeline também implementa **logging estruturado com Loguru**, permitindo monitorar cada etapa do processo e gerar registros para auditoria da execução.
 
 ### 4️⃣ 🔹 Ranking de gêneros no SQL
-📄 Arquivos:
-- *database_netflix*
--  *scripts.sql*  
+
+📄 Base de dados: *(database_netflix)*
+
+📄 Scripts *(scripts.sql)*
 
 O banco de dados foi criado a partir do mesmo dataset utilizado nas etapas anteriores.
 
@@ -125,6 +132,7 @@ A partir disso foram geradas análises como:
 - **Quantidade de shows adicionados ao catálogo por ano em cada gênero**
 
 ### 5️⃣ 🔹 Análises temporais no Google Sheets
+
 📄 Arquivo: *analise_sheets*  
 
 Nesta etapa foram realizadas análises exploratórias utilizando **Google Sheets**. 
@@ -137,7 +145,7 @@ Também foram criadas visualizações para observar:
 - Evolução do **catálogo ao longo do tempo**
 
 ### 6️⃣ 🔹 Dashboard analítico
-📄 Arquivo: *(dashboard_netflix)*
+📄 Dashboard: *(dashboard_netflix)*
 🔗 Link: -----
 
 Criação de um **dashboard analítico em Tableau** para visualização dos principais insights do dataset, incluindo:
@@ -150,7 +158,8 @@ Criação de um **dashboard analítico em Tableau** para visualização dos prin
 - Parâmetros para alternar visualização de séries e filmes
 
 ### 7️⃣ 🔹 Clusterização e matriz de correlação
-📄 Arquivo: *(ml_netflix.ipnyb)*
+
+📄 Notebook: *(ml_netflix.ipnyb)*
 
 Nesta etapa foi realizada uma **análise exploratória e modelagem de clusters** utilizando o dataset tratado na etapa 5 (`dataset_final.csv`).
 
@@ -172,7 +181,8 @@ Principais atividades:
 Ao final, foi possível identificar **perfis de filmes com base em duração média, classificação indicativa e gêneros predominantes**.
 
 ### 📊 Análise complementar: Top 10 Netflix (Tudum)
-📄 Arquivo: *(analises_complementares.ipnyb)*
+
+📄 Notebook: *(analises_complementares.ipnyb)*
 
 Além das etapas obrigatórias, foi realizada uma análise complementar utilizando o dataset público do **Top 10 semanal da Netflix (Tudum)**, filtrado para o **Brasil**. Os dados foram separados entre **filmes e séries**, identificando os títulos com maior presença no ranking ao longo dos anos. Em seguida, foram cruzados com o dataset do projeto, permitindo analisar:
 
