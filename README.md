@@ -142,7 +142,7 @@ A partir disso foram geradas análises como:
 
 ### 5️⃣ 🔹 Análises no Google Sheets
 
-📄 Arquivo: *analise_sheets*  
+📄 Arquivo: *netflix_sheets*  
 
 Nesta etapa foram realizadas análises exploratórias utilizando **Google Sheets**. 
 
