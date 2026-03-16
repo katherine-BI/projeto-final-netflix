@@ -140,7 +140,7 @@ A partir disso foram geradas análises como:
 - **Quantidade de shows adicionados ao catálogo por ano em cada país**
 - **Quantidade de shows adicionados ao catálogo por ano em cada gênero**
 
-### 5️⃣ 🔹 Análises temporais no Google Sheets
+### 5️⃣ 🔹 Análises no Google Sheets
 
 📄 Arquivo: *analise_sheets*  
 
