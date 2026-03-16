@@ -193,8 +193,11 @@ Ao final, foi possível identificar **perfis de filmes com base em duração mé
 ### 📊 Análises extras
 
 📄 Notebook: *(analises_complementares.ipynb)*
+📄 Arquivos:
+  - *(df_filmes.csv)*
+  - *(df_series.csv)*
 
-Além das etapas obrigatórias, foi realizada uma análise complementar utilizando o dataset público do **Top 10 semanal da Netflix (Tudum)**, filtrado para o **Brasil**. Os dados foram separados entre **filmes e séries**, identificando os títulos com maior presença no ranking ao longo dos anos. Em seguida, foram cruzados com o dataset do projeto, permitindo analisar:
+Além das etapas obrigatórias, foi realizada uma análise complementar utilizando o dataset público do **Top 10 semanal da Netflix (Tudum)**. Os dados disponíveis no repositório são resultantes do download realizado em 11/03/2025 e da posterior separação entre **filmes e séries**, com filtragem por resultados do Brasil. Desta forma, foi possível identificar os títulos com maior presença no ranking ao longo dos anos e cruzar com o dataset do projeto, permitindo analisar: 
 
 - Quais **gêneros aparecem com mais frequência entre os conteúdos mais assistidos**
 - Quais **classificações indicativas predominam no Top 10**
