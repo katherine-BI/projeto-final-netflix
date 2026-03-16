@@ -108,11 +108,20 @@ O pipeline executa as seguintes etapas:
 
 O pipeline também implementa **logging estruturado com Loguru**, permitindo monitorar cada etapa do processo e gerar registros para auditoria da execução.
 
-### 4️⃣ 🔹 Ranking de gêneros no SQL
-
-📄 Base de dados: *(database_netflix)*
-
-📄 Scripts *(scripts.sql)*
+  ### 4️⃣ 🔹 Ranking de gêneros no SQL
+  
+  📄 Notebook para criação do database: *(criacao_db_netflix.ipynb)*
+  
+  📄 Base de dados: *(database_netflix)*
+  
+  Scripts disponíveis em:
+    4_sql/
+    ├── criacao_db_netflix.ipynb
+    ├── database_netflix.db
+    └── scripts/
+        ├── criar_tb_geneos.sql
+        ├── criar_tb_pais.sql
+        └──...
 
 O banco de dados foi criado a partir do mesmo dataset utilizado nas etapas anteriores.
 
@@ -159,7 +168,7 @@ Criação de um **dashboard analítico em Tableau** para visualização dos prin
 
 ### 7️⃣ 🔹 Clusterização e matriz de correlação
 
-📄 Notebook: *(ml_netflix.ipnyb)*
+📄 Notebook: *(ml_netflix.ipynb)*
 
 Nesta etapa foi realizada uma **análise exploratória e modelagem de clusters** utilizando o dataset tratado na etapa 5 (`dataset_final.csv`).
 
@@ -182,7 +191,7 @@ Ao final, foi possível identificar **perfis de filmes com base em duração mé
 
 ### 📊 Análise complementar: Top 10 Netflix (Tudum)
 
-📄 Notebook: *(analises_complementares.ipnyb)*
+📄 Notebook: *(analises_complementares.ipynb)*
 
 Além das etapas obrigatórias, foi realizada uma análise complementar utilizando o dataset público do **Top 10 semanal da Netflix (Tudum)**, filtrado para o **Brasil**. Os dados foram separados entre **filmes e séries**, identificando os títulos com maior presença no ranking ao longo dos anos. Em seguida, foram cruzados com o dataset do projeto, permitindo analisar:
 
