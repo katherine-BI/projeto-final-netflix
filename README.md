@@ -168,7 +168,7 @@ Criação de um **dashboard analítico em Tableau** para visualização dos prin
 
 ### 7️⃣ 🔹 Clusterização e matriz de correlação
 
-📄 Notebook: *(ml_netflix.ipynb)*
+📄 Notebook: *(matriz_correlacao.ipynb)*
 
 Nesta etapa foi realizada uma **análise exploratória e modelagem de clusters** utilizando o dataset tratado na etapa 5 (`dataset_final.csv`).
 
