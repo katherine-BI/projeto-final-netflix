@@ -44,7 +44,7 @@ Também foi elaborado o baseline de um **Plano de Curadoria de Dados e Política
 
 📄 Notebook: *(enriquecimento_api.ipynb)*
 
-📄 Arquivo de saída: *(df_netflix_enriquecido)*
+📄 Arquivo de saída: *(df_netflix_enriquecido.csv)*
 
 Nesta etapa analisamos os dados presentes no dataset e definimos como estratégia o **enriquecimento com dados externos**.  Para isto, foi utilizada a **API do TMDB (The Movie Database)** por oferecer uma base mais completa e compatível com as colunas necessárias para o projeto.
 
@@ -142,7 +142,7 @@ A partir disso foram geradas análises como:
 
 ### 5️⃣ 🔹 Análises no Google Sheets
 
-📄 Arquivo: *netflix_sheets*  
+📄 Arquivo: *netflix_sheets.csv*  
 
 Nesta etapa foram realizadas análises exploratórias utilizando **Google Sheets**. 
 
@@ -189,7 +189,7 @@ Principais atividades:
 
 Ao final, foi possível identificar **perfis de filmes com base em duração média, classificação indicativa e gêneros predominantes**.
 
-### 📊 Análise complementar: Top 10 Netflix (Tudum)
+### 📊 Análises extras
 
 📄 Notebook: *(analises_complementares.ipynb)*
 
