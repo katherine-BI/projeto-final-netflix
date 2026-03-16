@@ -115,6 +115,7 @@ O pipeline também implementa **logging estruturado com Loguru**, permitindo mon
   📄 Base de dados: *(database_netflix.db)*
   
   Scripts disponíveis em:
+  ```
     4_sql/
     ├── criacao_db_netflix.ipynb
     ├── database_netflix.db
@@ -122,7 +123,7 @@ O pipeline também implementa **logging estruturado com Loguru**, permitindo mon
         ├── criar_tb_geneos.sql
         ├── criar_tb_pais.sql
         └──...
-
+```
 O banco de dados foi criado a partir do mesmo dataset utilizado nas etapas anteriores.
 
 Nesta etapa utilizamos **SQLite** para:
