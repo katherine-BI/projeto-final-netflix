@@ -120,7 +120,7 @@ O pipeline também implementa **logging estruturado com Loguru**, permitindo mon
     ├── criacao_db_netflix.ipynb
     ├── database_netflix.db
     └── scripts/
-        ├── criar_tb_geneos.sql
+        ├── criar_tb_generos.sql
         ├── criar_tb_pais.sql
         └──...
 ```
