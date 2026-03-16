@@ -110,9 +110,9 @@ O pipeline também implementa **logging estruturado com Loguru**, permitindo mon
 
   ### 4️⃣ 🔹 Ranking de gêneros no SQL
   
-  📄 Notebook para criação do database: *(criacao_db_netflix.ipynb)*
+  📄 Notebook para criação do database: *(csv_to_db.ipynb)*
   
-  📄 Base de dados: *(database_netflix)*
+  📄 Base de dados: *(database_netflix.db)*
   
   Scripts disponíveis em:
     4_sql/
