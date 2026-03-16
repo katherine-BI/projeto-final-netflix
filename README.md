@@ -23,8 +23,9 @@ O projeto foi desenvolvido em **7 etapas sequenciais**, cobrindo desde a defini�
 
 ---
 
-### 1️⃣ 🔹 Definição de Objetivo e MVP
-O MVP do projeto consiste em uma solução de análise de dados aplicada ao catálogo da Netflix, contemplando as seguintes entregas:
+### 1️⃣ 🔹 Definição de Objetivo, MVP e criação de Plano de Curadoria
+📄 Arquivo: *(plano_curadoria.pdf)*
+Na primeira etapa, definimos como MVP do projeto as seguintes entregas:
 
 - **Enriquecimento de dados via API (TMDB)** para complementar informações ausentes como diretor, elenco e país.
 - **Pipeline de ETL em Python utilizando Prefect**, responsável pela extração, transformação e geração do dataset final estruturado.
@@ -32,7 +33,9 @@ O MVP do projeto consiste em uma solução de análise de dados aplicada ao cat�
 - **Análises exploratórias e estatísticas**, investigando padrões do catálogo como distribuição de títulos, evolução temporal e correlações entre variáveis.
 - **Modelagem de Machine Learning (K-Means)** para identificar clusters de filmes com características semelhantes, considerando duração, classificação indicativa e gêneros.
 - **Dashboard analítico em Tableau**, reunindo visualizações e indicadores sobre o catálogo da plataforma.
-  
+
+Também foi elaborado o baseline de um **Plano de Curadoria de Dados e Políticas de Retenção**, estabelecendo diretrizes para o tratamento, padronização e manutenção da qualidade das informações utilizadas. Ao longo do desenvolvimento, esse documento foi **atualizado para incorporar decisões técnicas**, incluindo estratégias de enriquecimento de dados, padronização de campos e critérios de retenção de dados históricos.
+
 ---
 
 ### 2️⃣ 🔹 Enriquecimento via API
