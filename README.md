@@ -154,20 +154,7 @@ Também foram criadas visualizações para observar:
 - Distribuição de títulos por **ano de lançamento**
 - Evolução do **catálogo ao longo do tempo**
 
-### 6️⃣ 🔹 Dashboard analítico
-📄 Dashboard: *(dashboard_netflix)*
-🔗 Link: -----
-
-Criação de um **dashboard analítico em Tableau** para visualização dos principais insights do dataset, incluindo:
-
-- Distribuição de títulos por **gênero**
-- Evolução do **catálogo ao longo do tempo**
-- **Duração média** por tipo de conteúdo
-- Distribuição por **país**
-- **Classificação indicativa**
-- Parâmetros para alternar visualização de séries e filmes
-
-### 7️⃣ 🔹 Clusterização e matriz de correlação
+### 6️⃣ 🔹 Clusterização e matriz de correlação
 
 📄 Notebook: *(matriz_correlacao.ipynb)*
 
@@ -190,7 +177,7 @@ Principais atividades:
 
 Ao final, foi possível identificar **perfis de filmes com base em duração média, classificação indicativa e gêneros predominantes**.
 
-### 📊 Análises extras
+### 7️⃣ 🔹 Análises extras
 
 📄 Notebook: *(analises_complementares.ipynb)*
 📄 Arquivos:
@@ -201,6 +188,19 @@ Além das etapas obrigatórias, foi realizada uma análise complementar utilizan
 
 - Quais **gêneros aparecem com mais frequência entre os conteúdos mais assistidos**
 - Quais **classificações indicativas predominam no Top 10**
+
+### 8️⃣ 🔹 Dashboard analítico
+📄 Dashboard: *(dashboard_netflix)*
+🔗 Link: [Dashboard](https://public.tableau.com/authoring/Womakers-AnlisedoCatlogodaNetflix_17740207177510/VisoGeraldoCatlogo#1)
+
+Criação de um **dashboard analítico em Tableau** para visualização dos principais insights do dataset, incluindo:
+
+- Distribuição de títulos por **gênero**
+- Evolução do **catálogo ao longo do tempo**
+- **Duração média** por tipo de conteúdo
+- Distribuição por **país**
+- **Classificação indicativa**
+- Parâmetros para alternar visualização de séries e filmes
   
 ## 🛠️ Tecnologias Utilizadas
 
