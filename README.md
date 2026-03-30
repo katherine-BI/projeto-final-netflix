@@ -13,6 +13,7 @@ Projeto desenvolvido pelo **Squad Katherine Johnson** no Bootcamp de **Business 
 
 A iniciativa utiliza o dataset **Netflix Movies and TV Shows**, disponibilizado no Kaggle, e aplica técnicas de **tratamento de dados, enriquecimento via API, modelagem analítica, visualização e Machine Learning** para explorar padrões e tendências no catálogo da plataforma.
 
+<img width="1464" height="844" alt="Visão Geral do Catálogo" src="https://github.com/user-attachments/assets/a5974bad-711c-4805-a6d4-bc11fcd01a8b" />
 
 ## 🎯 Objetivo
 Transformar dados brutos do catálogo da Netflix em **informações estruturadas e análises exploratórias**, permitindo identificar padrões relacionados a **gêneros, duração, classificação indicativa, países e tendências do catálogo ao longo do tempo**.
@@ -191,7 +192,8 @@ Além das etapas obrigatórias, foi realizada uma análise complementar utilizan
 
 ### 8️⃣ 🔹 Dashboard analítico
 📄 Dashboard: *(dashboard_netflix)*
-🔗 Link: [Dashboard](https://public.tableau.com/authoring/Womakers-AnlisedoCatlogodaNetflix_17740207177510/VisoGeraldoCatlogo#1)
+
+🔗 Link: [Dashboard](https://public.tableau.com/views/Womakers-AnlisedoCatlogodaNetflix_17740207177510/VisoGeraldoCatlogo?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Criação de um **dashboard analítico em Tableau** para visualização dos principais insights do dataset, incluindo:
 
